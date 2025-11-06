@@ -123,7 +123,13 @@ const labs = [
   { id: 106, test: "Technical Results", value: "See Comment" },
   { id: 107, test: "TIF-1y Ab", value: "<11" },
   { id: 108, test: "Varicella zoster virus Ab.IgM", value: "<1:1" },
-  { id: 109, test: "Varicella zoster virus Ab", value: "<1:2" }
+  { id: 109, test: "Varicella zoster virus Ab", value: "<1:2" },
+  { id: 110, test: "Intrinsic factor", value: "Negative" },
+  { id: 111, test: "Aquaporin-4 (AQP4) AB (NMO-IgG), Elisa", value: "Negative" },
+  { id: 112, test: "MRI brain", value: "No acute finding" },
+  { id: 113, test: "MRI thoracic spine", value: "No acute finding" },
+  { id: 114, test: "MRI cervical spine", value: "Long segment nonenhancing intramedullary T2 hyperintensity, predominantly in the posterior aspect of cervical cord seen from C2-C3 intervertebral level to C7 vertebral level" }
+
 ];
 
 // Retrieve saved results from localStorage or start empty
