@@ -24,11 +24,13 @@ const labs = [
   // Nutrient and vitamin labs
   { id: 18, test: "Folate", value: 9.0 },
   { id: 19, test: "PARIETAL CELL ABS", value: "NEGATIVE" },
-  { id: 20, test: "HOMOCYSTINE", value: 13.1, flag: "H" },
-  { id: 21, test: "METHYLMALONIC ACID", value: 901, flag: "H" },
+  // Updated values per user request: Homocystine 17 (high), Methylmalonic acid 1493 (high)
+  { id: 20, test: "HOMOCYSTINE", value: 17, flag: "H" },
+  { id: 21, test: "METHYLMALONIC ACID", value: 1493, flag: "H" },
   { id: 22, test: "Copper,Ser", value: 115 },
   { id: 23, test: "Thiamine", value: 162 },
-  { id: 24, test: "Vitamin B12", value: 1565, flag: "H" },
+  // Updated B12: <150, remove high flag
+  { id: 24, test: "Vitamin B12", value: "<150" },
   { id: 25, test: "VITAMIN B6", value: 8.1 },
   { id: 26, test: "Magnesium", value: 1.8 },
   // Hormonal and metabolic tests
